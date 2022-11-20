@@ -1,2 +1,2 @@
 # grid
-Music Collaboration
+Music Platform for Collaboration
