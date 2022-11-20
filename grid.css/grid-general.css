@@ -1,0 +1,66 @@
+:root {
+  --black: rgb(2, 2, 2);
+  --blue: rgb(9, 9, 238);
+  --blue-light: rgb(80, 80, 235);
+  --red: rgb(143, 0, 0);
+  --white: rgb(255, 255, 255);
+  --wheat: wheat;
+  --alt-black:rgba(22, 18, 18, 0.253);
+  --darker-primary-tint: #754011e1;
+  --grey-color: #555;
+  --darker-grey: #333;
+  --lighter-grey: #ddd;
+  --mid-grey: #6f6f6f;
+  --text-grey: #767676;
+  --less-darker-grey: #888;
+  --tag-color: #51cf66;
+  --lemon-tag-color: #94d82d;
+  --yellow-tag-color: #ffd43b;
+  --faint-color: #aaa;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--black);
+  color: var(--white);
+}
+  
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+main {
+  margin: 0px;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.endless-opportunities p, .share-idea p, .music-course p{
+  font-size: 18px;
+  line-height: 1.4;
+  
+}
+
+button {
+  font-size: 15px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  background: none;
+}
+
+button:hover{
+background-color:var(--blue-light) ;
+}
+

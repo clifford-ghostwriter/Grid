@@ -1,0 +1,13 @@
+@media (max-width: 867px) {
+    .main-nav-list {
+        display: flex;
+    flex-direction: column;}
+
+    .sub-list {
+    left:-90px;
+    }
+
+    .sub-list a{
+    color:blue;
+    }
+}
