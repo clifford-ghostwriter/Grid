@@ -18,7 +18,6 @@
         }
 
         .testimonial{
-          
         width: fit-content;
         }
 
@@ -37,7 +36,6 @@
     .get-a-musician{
         display: flex;
         flex-direction: column-reverse;
-    
         height: 100%;
         }
 
@@ -62,6 +60,26 @@
         justify-content: center;
         align-self: center;
         height: 100%;
+    }
+
+    header{
+    max-width:fit-content;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    }
+
+    .search-main{
+    position: absolute;
+    left: 32%;
+    top: 100px;
+    }
+    .main-nav-list{
+    display: flex;
+    }
+
+    .sub-list{
+        display: none;
     }
 
     .share-idea-pictures{
@@ -98,14 +116,38 @@
     }
 
     .testimonial-container{
-    margin-left: 50px;
+    margin-left: 40px;
+    align-content: flex-start;
     }
 
-    .testimonial p, .endless-opportunities p, .share-idea p, .music-course p{
+    .testimonial p, .endless-opportunities p, .share-idea p, 
+    .music-course p, .grid-benefits-container p {
      font-size: 30px;
     }
 
-    .endless-opportunities, .share-idea p, .music-course , .testimonial p{
-        text-align-last: center;
+    footer li{
+    font-size: 28;
     }
+    footer h1{
+    font-size: 32px;
+    }
+
+    .endless-opportunities, .share-idea p, .music-course{
+        text-align-last: center;
+        
+    }
+    .testimonial p{ 
+        text-align: left;
+    }
+
+    .grid-benefits-section{
+        height: 500px;}
+
+    .grid-benefits-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        height: 400px;
+        column-gap: 5px;
+    }
+
 }
