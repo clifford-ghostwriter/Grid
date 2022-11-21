@@ -24,21 +24,13 @@
 
         .get-a-musician .share-idea{
         display: grid;
-    
-        /* justify-content: space-around; */
         column-gap: 20px;
-        /* height: max-content; */
-        /* margin-left: 120px; */
         }
 
         .testimonial p{
             text-align: center;}
-
-
-        
         }
-
-        
+    
 
 @media (max-width: 1250px) {
 
@@ -49,22 +41,18 @@
         height: 100%;
         }
 
-        
     .guitar{
         align-self: center;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center;        
     }
 
     .endless-opportunities, .share-idea, .music-course{
     width: 100%;
-    /* box-sizing: unset; */
     margin-left: 60px;
     align-self: center;
     align-items: center;
     justify-content: center;
-        /* margin: 0; */
     }
 
     .hub-page, .music-course-container, .music-course-section{
@@ -98,7 +86,6 @@
     .logo-section img{
         width: 100px;
         height: 100px;
-        
     }
 
     .logo-section h1, .logo-section h2{
@@ -114,8 +101,6 @@
     margin-left: 50px;
     }
 
-
-
     .testimonial p, .endless-opportunities p, .share-idea p, .music-course p{
      font-size: 30px;
     }
@@ -123,5 +108,4 @@
     .endless-opportunities, .share-idea p, .music-course , .testimonial p{
         text-align-last: center;
     }
-    
 }

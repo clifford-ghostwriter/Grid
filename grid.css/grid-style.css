@@ -1,6 +1,4 @@
 header{
-    /*background-image: url(/images/background-imgs/background-1.jpeg);*/
-    background-position:bottom;
     background-repeat:repeat;
     position: relative;
     display: flex;
@@ -9,7 +7,6 @@ header{
     height: 5.0rem;
     background-size:fill;
     padding: 15px;
-    /*border: 2px solid var(--wheat);*/
 }
 
 .grid{
@@ -30,7 +27,6 @@ color: var(--red)
 }
 
 .main-nav{
-/* position: absolute; */
 left: 40.1%;
 top: 0;
 display: flex;
@@ -40,7 +36,6 @@ justify-content: space-between;
 .main-nav-list{
 background-color: var(--black);
 height: 1.2rem;
-/*box-shadow: 2px 2px var(--wheat);*/
 }
 
 .main-nav-link{
@@ -48,7 +43,6 @@ float: left;
 color: var(--white);
 padding-right: 4rem;
 list-style-type: none;
-/* border-right: 1px solid var(--white); */
 font-weight: 600;
 font-size: 1.1rem;
 cursor: pointer;
@@ -66,9 +60,7 @@ text-decoration: none;
 .sub-list li:hover{
 background-color: rgb(49, 47, 47);
 border-radius: 5%;
-
 }
-
 
 .sub-list{
 position: absolute;
@@ -82,7 +74,6 @@ box-shadow: 2px 2px 2px rgb(228, 195, 195);
 column-gap: 20px;
 background-color: rgb(20, 17, 17);
 padding: 12px;
-/* margin-top: 10px; */
 line-height: 1.2;
 }
 
@@ -103,17 +94,7 @@ display:flex;
 
 }
  
-/* .sub-list a:hover{
-border-bottom: 2px solid var(--red);
-opacity: 1;
-z-index: 1;
-transform: translateX(+0.2rem);
-} */
-
-/****search-section*****/
-
 .search-main{
-/* position:absolute; */
 display: flex;
 align-items: center;
 padding: 10px;
@@ -149,11 +130,7 @@ color: rgb(185, 168, 168);
 border-style: hidden;
 outline: none;
 }
-
-
 /*******you can work with musicians from anywhere******/
-
-
 .quick-section{
 background-image: url(/images/background-imgs/background-3.jpg);
 background-position: center;
@@ -240,10 +217,7 @@ margin:2rem;
 }
     
 
-.endless-opportunities {
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
+.endless-opportunities { 
     align-self:center;
     width: 400px;
     height: 300px;
@@ -258,7 +232,6 @@ margin:2rem;
 .endless-opportunities button{
     margin-top: 30px;
 }
-
 
 .guitar img{
     object-fit:cover;
@@ -277,8 +250,6 @@ width: 200px;
 height: 50px;
 }
 
-
-
 /* ***********************hub-page******************* */
 .hub-page{
 display: grid;
@@ -290,7 +261,6 @@ margin: 15px;
 height: 700px;
 padding: 20px;
 }
-
 
 .share-idea-pictures{
 position: relative;
@@ -354,8 +324,6 @@ width: 150px;
 height: 150px;
 border-radius: 15px;
 }
-
-
 /************************testimonial-section */
 
 .testimonial-section{
@@ -413,7 +381,6 @@ font-weight:bold;
 margin-top: 10px;
 }
 
-
 /* ******************************music-course******************** */
 .music-course-section{
 height: 800px;
@@ -447,7 +414,6 @@ margin-top: 70px;
     margin-bottom: 16px;
 }
 
-
 .music-course-pic{
 position: relative;
 
@@ -469,8 +435,6 @@ left: 170px;
 top:150px;
 
 }
-
-
 
 /***********************benefits-section***********/
 .grid-benefits-section{
